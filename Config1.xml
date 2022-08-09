@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataProtectionUserConfig SchemaVersion="1">
+  <UserName>srira</UserName>
+  <FriendlyName>Sriram Bandaru</FriendlyName>
+  <PCName>LAPTOP-T6ANKN7S</PCName>
+  <UserId>11052490-d8f0-4522-8048-8ddb717743f0</UserId>
+  <Library>
+    <LibraryName>*2112ab0a-c86a-4ffe-a368-0de96e47012e</LibraryName>
+    <Folder>C:\Users\srira\Music</Folder>
+  </Library>
+  <Library>
+    <LibraryName>*e25b5812-be88-4bd9-94b0-29233477b6c3</LibraryName>
+    <Folder>C:\Users\srira\OneDrive\Pictures\Saved Pictures</Folder>
+  </Library>
+  <Library>
+    <LibraryName>*491e922f-5643-4af4-a7eb-4e7a138d8174</LibraryName>
+    <Folder>C:\Users\srira\Videos</Folder>
+  </Library>
+  <Library>
+    <LibraryName>*2b20df75-1eda-4039-8097-38798227d5b7</LibraryName>
+    <Folder>C:\Users\srira\OneDrive\Pictures\Camera Roll</Folder>
+  </Library>
+  <Library>
+    <LibraryName>*7b0db17d-9cd2-4a93-9733-46cc89022e7c</LibraryName>
+    <Folder>C:\Users\srira\OneDrive\Documents</Folder>
+  </Library>
+  <Library>
+    <LibraryName>*a990ae9f-a03b-4e80-94bc-9912d7504104</LibraryName>
+    <Folder>C:\Users\srira\OneDrive\Pictures</Folder>
+  </Library>
+  <UserFolder>C:\Users\srira\Documents</UserFolder>
+  <UserFolder>C:\Users\srira\Searches</UserFolder>
+  <UserFolder>C:\Users\srira\3D Objects</UserFolder>
+  <UserFolder>C:\Users\srira\OneDrive\Desktop</UserFolder>
+  <UserFolder>C:\Users\srira\OneDrive</UserFolder>
+  <UserFolder>C:\Users\srira\Contacts</UserFolder>
+  <UserFolder>C:\Users\srira\OneDrive\Pictures</UserFolder>
+  <UserFolder>C:\Users\srira\Favorites</UserFolder>
+  <UserFolder>C:\Users\srira\Videos</UserFolder>
+  <UserFolder>C:\Users\srira\Music</UserFolder>
+  <UserFolder>C:\Users\srira\Downloads</UserFolder>
+  <UserFolder>C:\Users\srira\OneDrive\Documents</UserFolder>
+  <UserFolder>C:\Users\srira\Links</UserFolder>
+  <UserFolder>C:\Users\srira\Saved Games</UserFolder>
+  <LocalCatalogPath1>C:\Users\srira\AppData\Local\Microsoft\Windows\FileHistory\Configuration\Catalog1.edb</LocalCatalogPath1>
+  <LocalCatalogPath2>C:\Users\srira\AppData\Local\Microsoft\Windows\FileHistory\Configuration\Catalog2.edb</LocalCatalogPath2>
+  <StagingArea>
+    <StagingAreaPath>C:\Users\srira\AppData\Local\Microsoft\Windows\FileHistory\Data</StagingAreaPath>
+    <StagingAreaMaximumCapacity>1276137943</StagingAreaMaximumCapacity>
+    <StagingAreaWarningThreshold>957103457</StagingAreaWarningThreshold>
+  </StagingArea>
+  <AvailabilityPolicies>
+    <TargetAbsenceTime>5</TargetAbsenceTime>
+    <TimeInUnprotectedState>3</TimeInUnprotectedState>
+  </AvailabilityPolicies>
+  <RetentionPolicies>
+    <RetentionPolicyType>DISABLED</RetentionPolicyType>
+    <MinimumRetentionAge>365</MinimumRetentionAge>
+  </RetentionPolicies>
+  <DPFrequency>3600</DPFrequency>
+  <DPStatus>DISABLED</DPStatus>
+  <Target>
+    <TargetName>New Volume (E:)</TargetName>
+    <TargetUrl>E:\</TargetUrl>
+    <TargetVolumePath>\\?\Volume{5363c26c-e26e-43cb-91b4-1aa3d89cd0b4}\</TargetVolumePath>
+    <TargetDriveType>FIXED</TargetDriveType>
+    <TargetConfigPath1>srira\LAPTOP-T6ANKN7S\Configuration\Config1.xml</TargetConfigPath1>
+    <TargetConfigPath2>srira\LAPTOP-T6ANKN7S\Configuration\Config2.xml</TargetConfigPath2>
+    <TargetCatalogPath1>srira\LAPTOP-T6ANKN7S\Configuration\Catalog1.edb</TargetCatalogPath1>
+    <TargetCatalogPath2>srira\LAPTOP-T6ANKN7S\Configuration\Catalog2.edb</TargetCatalogPath2>
+    <TargetBackupStorePath>srira\LAPTOP-T6ANKN7S\Data</TargetBackupStorePath>
+    <TargetWarningThreshold>98</TargetWarningThreshold>
+  </Target>
+</DataProtectionUserConfig>
