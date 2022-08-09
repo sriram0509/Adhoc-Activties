@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script>
+   function possibleCombinations(str){
+    let combinations = [];
+      for(let i = 0 ;i < str.length; i++)
+    {
+        for(let j = i + 1; j< str.length + 1; j++)
+        {
+            var d = combinations.push(str.slice(i, j));
+        }
+    }
+   return combinations;
+}
+        const string = prompt('Enter a string: ');
+
+        // call the function
+        const value = possibleCombinations(string);
+
+        console.log(value);
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script>
+       /* var i = '123';
+        var d = i.split('');
+        var e = d.reverse();
+        var t = e.toString('');
+        console.log(t);*/
+        function reverse(number) {
+            let rev = 0;
+            let num = number;
+            let lastdigit;
+            while (num != 0) {
+                lastdigit = num % 10;
+
+                rev = rev * 10 + lastdigit;
+
+                num = Math.floor(num / 10);
+
+            }
+            return rev;
+        }
+        var number = window.prompt("enter number:");
+        var rev = reverse(number);
+        console.log(rev);
+    </script>
+
+</body>
+</html>

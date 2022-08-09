@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script>
+        function datecheck(current) {
+            value = '';
+            var dt = new Date(current);
+            //var date = new Date(); for date
+            console.log("date:" + current + "other:" + dt.getMonth() + 1 + "/" + dt.getDate() + "/" + dt.getFullYear());
+            if (current === (dt.getMonth() + 1) + "/" + dt.getDate() + "/" + dt.getFullYear()) {
+                var value = console.log("date is correct");
+            }
+            else {
+                var value = console.log("date is incorrect");
+
+            }
+            return value;
+        }
+
+        // take input
+        const date = prompt('Enter a date: ');
+
+        // call the function
+        let dt = new Date(date);
+        let current = (dt.getMonth() + 1) + "/" + dt.getDate() + "/" + dt.getFullYear() ;
+        console.log(current);
+        const value = datecheck(current);
+        console.log(value);
+    </script>
+</body>
+</html>

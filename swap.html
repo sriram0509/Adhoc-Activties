@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script>
+        function swap(string) {
+            let length = string.length;
+            var value='';
+            for (i = 0; i < length; i++) {
+                if (string[i] == string[i].toLowerCase()) {
+                    value += string[i].toUpperCase();
+                }
+                else {
+                     value += string[i].toLowerCase();
+                }
+            }
+            return value;
+        }
+        const string = prompt('Enter a string: ');
+        const value = swap(string);
+        console.log(value);
+    </script>
+</body>
+</html>

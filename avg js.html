@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script>
+        var maths, science, social, english;
+
+        function totalmarks(maths, science, social, english)
+        {
+            var maxmarks = 400;
+            var total = maths + science + social + english;
+            
+            var avg = (total / maxmarks)*100;
+           // alert(avg);
+            if (avg > 80) {
+                document.getElementById("grade").innerHTML = "A Grade and average is " + avg;
+                document.getElementById("average").innerHTML = "average is " + avg;
+
+            }
+            else if(avg > 70 && avg < 80)
+            {
+                document.getElementById("grade").innerHTML = "B Grade and average is " + avg;
+                document.getElementById("percentage").innerHTML = "percentage is " + avg;
+
+            }
+            else if(avg > 60 && avg < 70)
+            {
+                document.getElementById("grade").innerHTML = "C Grade and average is " + avg;
+                document.getElementById("percentage").innerHTML = "percentage is " + avg;
+
+            }
+            else (avg < 60)
+            const num = prompt('Enter marks: ');
+            {
+                document.getElementById("grade").innerHTML = "D Grade and average is " + avg;
+                document.getElementById("percentage").innerHTML = "percentage is " + avg;
+
+            }
+        }
+    </script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <p id="grade"></p>
+    <p id="percentage"></p>
+    <button name="display marks" onclick="totalmarks(40,48,49,30)"> display marks</button>
+
+</body>
+</html>

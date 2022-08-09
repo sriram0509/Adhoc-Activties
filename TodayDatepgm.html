@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <p> to display the current date</p>
+    <p id="demo"></p>
+    <script>
+        function todayDate() {
+            var today = new Date();
+            var day = today.getDay();        
+            document.getElementById("demo").innerHTML = "CurrentDay is : " + today  ;
+        }
+    </script>
+    <div id="date"></div>
+    <button onclick="todayDate()">CurrentDate</button>
+</body >
+</html>

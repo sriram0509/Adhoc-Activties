@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script>
+        //factorial numbers
+        function factorial(number) {
+            let fact = 1;
+            for (i = 1; i <= number; i++) {
+                fact *= i;
+            }
+            return fact;
+        }
+        const num = prompt('Enter a string: ');
+        const value = factorial(num);
+        console.log(value);
+    </script>
+</body>
+</html>
